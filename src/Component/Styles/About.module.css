@@ -1,0 +1,22 @@
+.aboutImg{
+    width: 100%;
+}
+.title h3{
+    font-size: 37px;
+    margin-bottom: 30px;
+}
+
+.title P:nth-child(2){
+    color: red;
+}
+
+.innerContent p{
+    color: #55598D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.innerContent h4{
+    margin-top: 41px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}

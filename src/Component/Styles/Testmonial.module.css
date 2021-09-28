@@ -1,0 +1,95 @@
+.bG{
+    position: relative;
+    height: 550px;
+    background: #856BF8;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+.bG:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    background-image: url(../../images/testmonialBg.png);
+    /* background-repeat: no-repeat; */
+    filter: brightness(0) invert(1);
+    opacity: .2;
+    z-index: -1;
+}
+.testmonialPersonImg {
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #896eff;
+    margin-right: 15px;
+}
+.testmonialSliderInner {
+    background: #fff;
+    box-shadow: 2px 3px 10px #806af6;
+    border-radius: 5px;
+    height: 350px;
+    padding: 11px 20px;
+}
+.testmonialSliderInner p{
+    color: #7276A0;
+}
+.testmonialSliderInner h5{
+    color: #1F2471;
+}
+.testmonialSideContent p{
+        color: #fff !important;
+        background: none !important;
+        padding: 0 !important;
+        font-weight: none !important;
+    }
+.testmonialSideContent p:first-child {
+    color: #fff;
+    background: #A995FE;
+}
+.testmonialSideContent h3 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .testmonialSliderInner{
+        height: 362px;
+        padding: 19px 14px;
+    }
+    .testmonialSideContent h3 {
+        font-size: 30px;
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}

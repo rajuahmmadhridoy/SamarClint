@@ -1,0 +1,21 @@
+.bg{
+    background-image: url(../../images/mainbg.png);
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    top: 155px;
+    left: 0;
+    
+}
+.img2{
+    position: absolute;
+    top: 93px;
+    right: 0;
+    
+}

@@ -1,0 +1,67 @@
+.logo {
+    font-size: 20px;
+    color: #222;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 17px;
+}
+.logo img{
+    background_color:#1F2471;
+}
+
+.main li a {
+    color: #5F6193;
+    padding: 15px 35px;
+    font-weight: 500;
+}
+.navBtn{
+    margin-top: 20px;
+}
+/* .navBtn a{
+    color: #896eff;
+    font-weight:500
+}
+.navBtn span {
+    width: 30px;
+    height: 30px;
+    background: #896eff;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    float: left;
+    margin-right: 15px;
+} */
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main li a {
+        padding: 15px 28px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}

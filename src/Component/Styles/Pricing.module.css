@@ -1,0 +1,74 @@
+.pricingInner{
+    box-shadow: 3px 4px 10px grey;
+    padding: 27px;
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+}
+.pricingInner h4{
+    font-size: 30px;
+    font-weight: 700;
+}
+.pricingInner h4:nth-child(2) {
+    color: #896EFF;
+}
+.pricingInner h4 span {
+    font-size: 25px;
+    font-weight: 500;
+}
+.pricingInner p {
+    color: #896EFF;
+    padding: 0 24px;
+    margin-bottom: 30px;
+}
+.pricingInner h5 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #896EFF
+}
+.pricingInner button {
+    font-size: 20px;
+    color: #fff;
+    background: #896EFF;
+    padding: 7px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight:500;
+}
+.pricingInner button:hover {
+    background: #896EFF;
+}
+.active{
+    background: #6441FF;
+    margin-top: -20px;
+}
+.active h4{
+    color: #fff
+
+}
+.active h4:nth-child(2){
+    color: #fff
+    
+}
+.active p{
+    color: #fff
+}
+.active h5{
+    color: #fff
+}
+.active:hover button{
+    background:#896EFF;
+}
+.active button:hover{
+    background:#6A48FF;
+}
+/* .pricingInner:active{
+    background: red;
+}
+.pricingInner:hover{
+    background: red;
+
+} */

@@ -1,0 +1,119 @@
+a{
+  text-decoration: none;
+  font-size: 15px;
+}
+li{
+  list-style: none;
+  float: left;
+}
+button{
+  border: none;
+}
+h1{}
+h2{}
+h3{
+  font-size:38px;
+  font-weight:700;
+  color: #1F2471;
+}
+h4{
+  font-weight:600;
+  color: #1F2471;
+}
+h5{}
+
+
+.container{
+  z-index: 10;
+}
+
+/* button css */
+button{
+  background: none;
+}
+.Btn a{
+  color: #896eff;
+  font-weight:500;
+  line-height:40px;
+}
+.Btn span {
+  width: 40px;
+  height: 40px;
+  background: #896eff;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  float: left;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.titleBtn p {
+  background: #EFECFF;
+  color: #896EFF;
+  display: inline-block;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.marginTop10{
+  margin-top:10px;
+}
+.marginTop15{
+  margin-top:15px;
+}
+.marginTop20{
+  margin-top:20px;
+}
+.marginTop25{
+  margin-top:25px;
+}
+.marginTop30{
+  margin-top:30px;
+}
+.marginTop50{
+  margin-top:50px;
+}
+.marginTop100{
+  margin-top:100px;
+}
+
+.marginBottom10{
+  margin-bottom:10px;
+}
+.marginBottom15{
+  margin-bottom:15px;
+}
+.marginBottom20{
+  margin-bottom:20px;
+}
+.marginBottom25{
+  margin-bottom:25px;
+}
+.marginBottom30{
+  margin-bottom:30px;
+}
+.marginBottom50{
+  margin-bottom:50px;
+}
+.marginBottom60{
+  margin-bottom:60px;
+}
+.marginBottom100{
+  margin-bottom:100px;
+}
+
+
+
+
+/* RESPONSIVE */
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .container {
+      max-width: 1000px;
+  }
+
+}

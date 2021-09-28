@@ -1,0 +1,38 @@
+.FooterColTitle{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.FooterColTitle:before{
+    position: absolute;
+    content: '';
+    height: 8px;
+    background: #fff;
+    left: 0;
+    top: 31px;
+    width: 28px;
+    border-radius: 5px;
+}
+.FooterColTitle::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 8px;
+    background: #fff;
+    top: 31px;
+    left: 33px;
+    border-radius: 5px;
+}
+.FooterColItems li{
+    float: none;
+}
+.FooterColItems li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin: 20px 0;
+    text-align: left;
+}

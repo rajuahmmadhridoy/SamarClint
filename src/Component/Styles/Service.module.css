@@ -1,0 +1,126 @@
+.icon{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 58px;
+    z-index: 5;
+}
+.iconImg{
+    transition: 1s;
+    position: absolute;
+    left: -48px;
+    top: -26px;
+    z-index: -1;
+}
+.serviceItems {
+    transition: 1s;
+    padding: 83px 0;
+    height: 400px;
+    position: relative;
+   }
+
+   .serviceContent{
+       z-index: 5;
+
+   }
+   .serviceContent p {
+    font-size: 15px !important;
+    color: #1f2471b8 !important;
+    background: none !important;
+    } 
+
+.serviceItems:hover {
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px grey;
+   }
+
+.serviceItemsHoverImg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display:none;
+    z-index: -1;
+    transition: all 0.4s ease-in 0s;
+    width: 0;
+    height: 0;
+}
+.serviceItemsHoverImg2{
+    position: absolute;
+    top: 110px;
+    right: -50px;
+    left: 0;
+    bottom: 0;
+    display:none;
+    z-index: -1;
+    transition: all 0.4s ease-in 0s;
+    width: 0;
+    height:0;
+}
+.active{
+    transition: 1s;
+}
+.active .serviceItemsHoverImg1{
+    display: block;
+    width:100%;
+    height: 100%;
+    top: 2px;
+    left: -24px;
+}
+.active .serviceItemsHoverImg2{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.active{
+    box-shadow: 2px 3px 10px grey;
+}
+.active .iconImg {
+    left: 34px;
+}
+ 
+
+
+
+/* RESPONSIVE */
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .serviceItemsHoverImg1 {
+        top: 12px;
+        left: -2px;
+    }
+    .serviceItemsHoverImg2 {
+        top: 124px;
+        right: -15px;
+    }
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
